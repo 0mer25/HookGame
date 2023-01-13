@@ -1,0 +1,9 @@
+import pyautogui as p
+import random
+import time
+
+while 1:
+    x = random.randint(600 , 800)
+    y = random.randint(200 , 600)
+    
+    p.moveTo(x , y , 0.7)
